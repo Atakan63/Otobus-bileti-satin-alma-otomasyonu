@@ -1,6 +1,6 @@
 <?php
 
-$db_path =  '/var/www/html/data/bilet_sistem.db';
+$db_path = __DIR__ . '/bilet_sistem.db';
 
 try {
     $pdo = new PDO("sqlite:" . $db_path);
